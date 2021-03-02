@@ -11,8 +11,16 @@ import UIKit
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad
         // Do any additional setup after loading the view.
+        let x = 4
+        
+        navigationController.title = "Debugging"
+        
+        var names = ["Tammy", "Cole")
+        names.removeFirst()
+        names.removeFirst()
+        names.removeFirst()
     }
 
 
